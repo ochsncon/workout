@@ -1,1 +1,0 @@
-// Dummy-Datei, damit GitHub die Sprache als JavaScript erkennt
