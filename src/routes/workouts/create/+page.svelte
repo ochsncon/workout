@@ -8,6 +8,16 @@
         weight: "",
         notes: "",
     };
+
+    let showSuccess = $state(false);
+    $effect(() => {
+        if (form?.success) {
+            showSuccess = true;
+            const timer = setTimeout(() => {
+                showSuccess = false;
+            }, 5000);
+        }
+    });
 </script>
 
 <h1 class="mt-2">Workout hinzufügen</h1>
@@ -72,9 +82,9 @@
         </select>
     </div>
 
-    <button class="mt-4 btn btn-primary" type="submit">Add Workout</button>
+    <button class="mt-4 btn btn-primary mb-3" type="submit">Add Workout</button>
 </form>
 
-{#if form?.success}
+{#if showSuccess}
     <h2>Workout registriert!</h2>
 {/if}

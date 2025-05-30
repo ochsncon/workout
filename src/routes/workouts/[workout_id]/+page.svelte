@@ -1,6 +1,16 @@
 <script>
     let { data, form } = $props();
+    let showSuccess = $state(false);
     import "../../style.css";
+
+    $effect(() => {
+        if (form?.success) {
+            showSuccess = true;
+            const timer = setTimeout(() => {
+                showSuccess = false;
+            }, 3000);
+        }
+    });
 </script>
 
 <h1 class="mt-2">Workout Details</h1>
@@ -66,6 +76,6 @@
     <button class="mb-3 btn btn-danger" type="submit">Workout löschen</button>
 </form>
 
-{#if form?.success}
+{#if showSuccess}
     <h2>Workout aktualisiert!</h2>
 {/if}
