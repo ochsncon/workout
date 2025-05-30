@@ -15,7 +15,7 @@
             showSuccess = true;
             const timer = setTimeout(() => {
                 showSuccess = false;
-            }, 5000);
+            }, 3000);
         }
     });
 </script>
