@@ -36,7 +36,7 @@
         <input
             class="form-control"
             name="Dauer"
-            type="time"
+            type="number"
             bind:value={workout.duration}
         />
     </div>
