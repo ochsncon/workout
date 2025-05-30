@@ -44,7 +44,7 @@
             value={data.workout.duration}
             name="Dauer"
             class="form-control"
-            type="time"
+            type="number"
             id=""
         />
     </div>
