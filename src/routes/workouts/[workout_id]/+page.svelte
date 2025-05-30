@@ -1,6 +1,5 @@
 <script>
     let { data, form } = $props();
-    let workout = data.workout;
     import "../../style.css";
 </script>
 

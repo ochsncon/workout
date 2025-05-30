@@ -58,7 +58,7 @@
             bind:value={workout.notes}
         />
     </div>
-    <div class="mb-3">
+    <div>
         <label for="Notizen" class="form-label">Kategorie</label>
         <select
             class="form-select"
@@ -72,7 +72,7 @@
         </select>
     </div>
 
-    <button class="mb-3 btn btn-primary" type="submit">Add Workout</button>
+    <button class="mt-4 btn btn-primary" type="submit">Add Workout</button>
 </form>
 
 {#if form?.success}

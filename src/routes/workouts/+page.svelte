@@ -5,9 +5,9 @@
     let search = $state("");
 </script>
 
-<h1 class="mt-2">Workouts</h1>
+<h1 class="mt-2 container mb-3">Workouts</h1>
 
-<div class="mb-3">
+<div class="container mb-3">
     <input
         type="text"
         class="form-control"
@@ -28,6 +28,6 @@
     </div>
 </div>
 
-<div class="mt-1">
+<div class="container mt-1">
     <a href="/workouts/create" class="btn btn-primary">Workout hinzufügen</a>
 </div>
