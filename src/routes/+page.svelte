@@ -7,7 +7,7 @@
     <a class="btn btn-outline-secondary" href="/athleten">Athleten ansehen</a>
 </div>
 
-<div class="row text-center mt-5 white-border py-4 px-3">
+<div class="row text-center mt-3 white-border py-4 px-3">
     <div class="col-md-6">
         <h4>Workouts</h4>
         <p>Übungen, Gewicht, Dauer, etc. – alles an einem Ort.</p>
