@@ -10,7 +10,7 @@
     };
 </script>
 
-<h1>Workout hinzufügen</h1>
+<h1 class="mt-2">Workout hinzufügen</h1>
 
 <form method="POST" action="?/create">
     <div class="mb-3">

@@ -2,7 +2,7 @@
     let { data } = $props();
 </script>
 
-<h1>Athleten</h1>
+<h1 class="mt-2">Athleten</h1>
 <table class="table table-dark table-hover table-borderless">
     <thead>
         <tr>

@@ -4,7 +4,7 @@
     import "../../style.css";
 </script>
 
-<h1>Workout Details</h1>
+<h1 class="mt-2">Workout Details</h1>
 
 <form method="POST" action="?/update">
     <input name="ID" type="hidden" value={data.workout._id} />
