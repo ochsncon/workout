@@ -44,7 +44,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img
-                src="/images/benchpress.png"
+                src="/images/deadlift.png"
                 class="d-block w-100"
                 alt="deadlift"
             />
