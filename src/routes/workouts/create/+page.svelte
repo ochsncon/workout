@@ -86,5 +86,5 @@
 </form>
 
 {#if showSuccess}
-    <h2>Workout registriert!</h2>
+    <h2>Workout hinzugefügt!</h2>
 {/if}
